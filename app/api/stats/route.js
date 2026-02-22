@@ -1,5 +1,7 @@
 import { supabase } from '../../../lib/supabase'
 
+export const dynamic = 'force-dynamic'
+
 export async function GET() {
   const { count: total } = await supabase
     .from('decisoes_pmba')

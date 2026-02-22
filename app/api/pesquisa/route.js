@@ -1,5 +1,7 @@
 import { supabase } from '../../../lib/supabase'
 
+export const dynamic = 'force-dynamic'
+
 const KEYWORDS = {
   promocao: ['promoção', 'carreira', 'merecimento', 'antiguidade', 'acesso'],
   gratificacao: ['gratificação', 'incorporação', 'vantagem', 'adicional', 'GAMA', 'GAPM'],
